@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.trulia.com/json/search/dots/?id=2&url=https://www.trulia.com/for_sale/Denver,CO/p_oh/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Httparty
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '3771'
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      - Host
+      Date:
+      - Mon, 21 May 2018 22:29:00 GMT
+      Server:
+      - Apache/2.4.18 (Ubuntu)
+      Set-Cookie:
+      - PHPSESSID=tsdevsc4nl1io3to9rm93pcn77; path=/; HttpOnly
+      - SERVERID=webfe200|WwNIM; path=/
+      - tlftmusr=180521p93nsclfjgfuep3lc0la0ww200; expires=Tue, 19-Jan-2038 03:14:07
+        GMT; Max-Age=620541906; path=/; domain=.trulia.com
+      - tlftmusr=180521p93nsclfjgfuep3lc0la0ww200; expires=Tue, 19-Jan-2038 03:14:07
+        GMT; Max-Age=620541906; path=/; domain=.trulia.com
+      - tlftmusr=180521p93nsclfjgfuep3lc0la0ww200; expires=Tue, 19-Jan-2038 03:14:07
+        GMT; Max-Age=620541907; path=/; domain=.trulia.com
+      - tlftmusr=180521p93nsclfjgfuep3lc0la0ww200; expires=Tue, 19-Jan-2038 03:14:07
+        GMT; Max-Age=620541907; path=/; domain=.trulia.com
+      Expires:
+      - Thu, 19 Nov 1981 08:52:00 GMT
+      Cache-Control:
+      - no-cache
+      - no-store, no-cache, must-revalidate
+      Pragma:
+      - no-cache
+      Strict-Transport-Security:
+      - max-age=604800;
+      X-Cache:
+      - Miss from cloudfront
+      Via:
+      - 1.1 2708ce9c9ca82cfc3f3661b87f21b072.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - gLoutRHzHHlD50pMIPd2XDDJlUJYE-RcSbZaMPysKcEwBSUzAnl7KA==
+    body:
+      encoding: UTF-8
+      string: '{"id":2,"dots":[{"lat":39.70844,"lng":-104.909996,"id":"5040479596","url":"\/p\/co\/denver\/423-s-niagara-st-denver-co-80224--2111014505","address":"423
+        S Niagara St","price":"$750,000","shortPrice":"$750k","beds":"4bd","baths":"3ba","sqft":"2,600
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISyv2v9d2v12o41000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISyv2v9d2v12o41000000000.jpg"},{"lat":39.745193,"lng":-104.88849,"id":"1081513999","url":"\/p\/co\/denver\/1777-willow-st-denver-co-80220--2073335946","address":"1777
+        Willow St","price":"$459,000","shortPrice":"$459k","beds":"5bd","baths":"3ba","sqft":"2,256
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/IS6253h0pwpqq60000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/IS6253h0pwpqq60000000000.jpg"},{"lat":39.74132,"lng":-104.90901,"id":"3023492941","url":"\/p\/co\/denver\/1560-newport-st-denver-co-80220--1061291037","address":"1560
+        Newport St","price":"$665,000","shortPrice":"$665k","beds":"4bd","baths":"2ba","sqft":"2,220
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/IS6m4kldq21cn31000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/IS6m4kldq21cn31000000000.jpg"},{"lat":39.668,"lng":-105.03463,"id":"5031540597","url":"\/p\/co\/denver\/2686-s-lowell-blvd-denver-co-80219--2110986035","address":"2686
+        S Lowell Blvd","price":"$415,000","shortPrice":"$415k","beds":"4bd","baths":"2ba","sqft":"1,160
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/IS66khp1i484ej0000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/IS66khp1i484ej0000000000.jpg"},{"lat":39.883698,"lng":-104.81596,"id":"5040294353","url":"\/p\/co\/commerce-city\/14700-e-104th-ave-37-3701-commerce-city-co-80022--2353151541","address":"14700
+        E 104th Ave #37-3701","price":"$327,200","shortPrice":"$327k","beds":"3bd","baths":"3ba","sqft":"1,420
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISe0h9nexr9dx10000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISe0h9nexr9dx10000000000.jpg"},{"lat":39.883698,"lng":-104.81596,"id":"5040294360","url":"\/p\/co\/commerce-city\/14700-e-104th-ave-34-3404-commerce-city-co-80022--2353153445","address":"14700
+        E 104th Ave #34-3404","price":"$290,300","shortPrice":"$290k","beds":"3bd","baths":"3ba","sqft":"1,447
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISa5iazwoovzqx1000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISa5iazwoovzqx1000000000.jpg"},{"lat":39.87597,"lng":-104.998795,"id":"5039661483","url":"\/p\/co\/northglenn\/981-w-99th-ave-northglenn-co-80260--2111118739","address":"981
+        W 99th Ave","price":"$399,000","shortPrice":"$399k","beds":"2bd","baths":"2ba","sqft":"1,730
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISeglzqzi36gas1000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISeglzqzi36gas1000000000.jpg"},{"lat":39.928864,"lng":-104.9685,"id":"1085185708","url":"\/p\/co\/thornton\/1400-e-128th-ct-thornton-co-80241--2111099782","address":"1400
+        E 128th Ct","price":"$415,000","shortPrice":"$415k","beds":"4bd","baths":"3ba","sqft":"2,772
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISyv6uv4r5v48p0000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISyv6uv4r5v48p0000000000.jpg"},{"lat":39.90944,"lng":-104.97151,"id":"5040149806","url":"\/p\/co\/northglenn\/1320-dean-dr-northglenn-co-80233--2073371197","address":"1320
+        Dean Dr","price":"$400,000","shortPrice":"$400k","beds":"4bd","baths":"2ba","sqft":"1,700
+        sqft","photoUrl":"\/pictures\/thumbs_3\/zillowstatic\/ISy3h3wh0clrgx0000000000.jpg","photoUrlForHdDpiDisplay":"\/pictures\/thumbs_4\/zillowstatic\/ISy3h3wh0clrgx0000000000.jpg"}]}'
+    http_version: 
+  recorded_at: Mon, 21 May 2018 22:29:01 GMT
+recorded_with: VCR 4.0.0

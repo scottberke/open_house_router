@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
+gem 'httparty'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -40,5 +41,9 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+  gem 'vcr'
+  gem 'webmock'
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
